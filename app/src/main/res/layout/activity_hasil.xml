@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="@color/white"
+    tools:context=".HasilActivity">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_back">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="Cek Kembali Isian Data"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_nik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:text="NIK"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/hasil_nik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_nik"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:text=""
+        android:textColor="@color/black">
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hasil_nik"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="Nama"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/hasil_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_nama"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:text=""
+        android:textColor="@color/black">
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hasil_nama"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="Tanggal Lahir"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/hasil_tanggal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_tanggal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:text=""
+        android:textColor="@color/black">
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_jenis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hasil_tanggal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="Jenis Kelamin"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/hasil_jenis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_jenis"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:text=""
+        android:textColor="@color/black">
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_hubungan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hasil_jenis"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="Hubungan Dengan Anda"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/hasil_hubungan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_hubungan"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:text=""
+        android:textColor="@color/black">
+    </TextView>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hasil_hubungan"
+        android:layout_marginTop="30dp"
+        android:background="#0ba700"
+        android:text="Simpan"
+        android:onClick="simpan">
+    </Button>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_marginTop="20dp"
+        android:text="ubah">
+    </Button>
+
+
+</RelativeLayout>
